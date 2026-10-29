@@ -1,0 +1,7 @@
+name: Feature request
+description: Propose a protocol-neutral lifecycle capability
+body:
+  - type: textarea
+    id: evidence
+    attributes: { label: Need, protocol evidence, and alternatives }
+    validations: { required: true }

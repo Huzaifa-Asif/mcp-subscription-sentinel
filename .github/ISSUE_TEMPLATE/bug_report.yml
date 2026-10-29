@@ -1,0 +1,11 @@
+name: Bug report
+description: Report an incorrect subscription transition
+body:
+  - type: textarea
+    id: sequence
+    attributes: { label: Minimal event sequence }
+    validations: { required: true }
+  - type: textarea
+    id: expected
+    attributes: { label: Expected state and action }
+    validations: { required: true }
